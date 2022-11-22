@@ -1,0 +1,93 @@
+.body{
+    overflow: hidden;
+}
+
+.musicas{
+    
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    background-color: rgb(59, 59, 59);
+    border-radius: 5px;
+    height: 550px;
+    max-width:1100px;
+    margin-top: 10px;
+    margin-left: 8px;
+    justify-content: space-between;
+    
+  
+}
+.firstBarrerMusics,.secondBarrerMusics{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2px;
+    background-color: rgb(59, 59, 59);
+    width: 1090px;
+    height: 230px;
+    justify-content: space-around;
+    
+
+}
+
+.ouvir{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
+
+}
+.titulo{
+    color: rgb(255, 255, 255);
+    width: 1090px;
+    margin-top: 5px;
+    background-color: rgb(59, 59, 59);
+    
+}
+.titulo>h4{
+    margin-left: 12px;
+}
+.cardsMusics{
+    align-items: center;
+    
+    display: flex;
+    flex-direction: column;
+    
+    background-color: rgb(89, 89, 89);
+    width: 200px;
+    height: 220px;
+    
+    border-radius: 6px;
+    justify-content: space-between;
+    
+}
+.cardsMusics:hover,.inform-music:hover{
+    background-color: rgb(101, 101, 101);
+}
+.image-music{
+    border-radius: 3px;
+    width: 180px;
+    height: 145px;
+    background-color:black;
+    margin-top: 6px;
+    
+}
+.inform-music{
+   
+    width: 180px;
+    height: 60px;
+    
+    margin-block-end: 3px;
+    
+}
+.image-music:hover{
+    background-image: url(./imagens/Buttonplay.png);
+    background-position-y: 100px;
+    background-position-x: 135px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+
+}

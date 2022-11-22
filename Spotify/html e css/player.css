@@ -1,0 +1,245 @@
+.tocador{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 3px solid black;
+    background-color: black;
+    border-radius: 4px;
+    margin-top: 8px;
+    max-width: 1390px;
+    max-height: 80px;
+}
+.music-being-played,.sounds{
+    max-height: 80px;
+    width: 400px;
+    
+
+
+}
+.playing-music{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    max-height: 80px;
+    max-width: 500px;
+    
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+    height: 60px;
+    width: 500px;
+    
+
+}
+.progress-music{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20px;
+    width: 500px;
+}
+.back-music,.pause-or-continue,.next-music{
+    
+    width: 40px;
+    height: 30px;
+    
+
+}
+.repeat-music,.ordem{
+    width: 160px;
+    height: 30px;
+   
+
+}
+.pause-or-continue{
+    
+        background-image: url(./imagens/player-button.png);
+        background-position-y:center ;
+        background-position-x: center;
+        background-repeat: no-repeat;
+        background-size: 25px;
+        
+    
+
+}
+.pause-or-continue:hover{
+    
+    background-size: 30px;
+}
+
+.back-music{
+    background-image: url(./imagens/voltar.png);
+    opacity: 0.6;
+    background-position-x: center;
+    background-position-y:center ;
+    background-repeat: no-repeat;
+    background-size: 20px;
+   
+}
+.next-music{
+    background-image: url(./imagens/avanco-rapido-setas-duplas-para-a-direita.png);
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-position-y:center ;
+    background-position-x: center;
+    background-size: 20px;
+}
+.repeat-music{
+    background-image: url(./imagens/ordem.png);
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-position-y:center ;
+    background-position-x: left;
+    background-size: 22px;
+}
+.ordem{
+    background-image: url(./imagens/proxima-musica.png);
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-position-y:center ;
+    background-position-x: right;
+    background-size: 22px;
+}
+.tempo-percorrido,.tempo-a-percorrer{
+    width: 50px;
+    height: 20xpx;
+    
+
+}
+.barra-de-progresso{
+    border-radius: 3px;
+    width: 500px;
+    height: 6px;
+    background-color:rgb(89, 89, 89) ;
+}
+.ordem:hover,.back-music:hover,.next-music:hover,.repeat-music:hover{
+    opacity: 1.0;
+
+}
+
+.sounds{
+    
+    
+}
+
+.options-sound{
+    margin-top: 20px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    max-width: 400px ;
+    height: 32px;
+  
+}
+.microfone,.fila,.conectar-dispositivo{
+    width: 40px;
+    height: 32px;
+    
+}
+
+.volume{
+    display: flex;
+    width: 132px;
+    height: 32px;
+   
+    justify-content: right;
+}
+
+.microfone{
+    background-image: url(./imagens/microfone\ .png);
+    
+    background-repeat: no-repeat;
+    background-position-y:center ;
+    background-position-x: center;
+    background-size: 16px;
+    opacity: 0.6;
+}
+
+.conectar-dispositivo{
+    background-image: url(./imagens/computer.png);
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-position-y:center ;
+    background-position-x: center;
+    background-size: 16px;
+}
+.volume{
+    
+    background-image: url(./imagens/volume.png);
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-position-y:center ;
+    background-position-x: left;
+    background-size: 16px;
+
+}
+.barra-de-volume{
+    border-radius: 3px;
+    width: 110px;
+    height: 6px;
+    background-color:rgb(89, 89, 89) ;
+    margin-top: 13px;
+}
+.fila{
+    
+    background-image: url(./imagens/pilha-de-livros.png);
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-position-y:center ;
+    background-position-x: center;
+    background-size: 16px;
+
+}
+.volume:hover,.fila:hover,.conectar-dispositivo:hover,.microfone:hover,.add-favorites:hover{
+    opacity: 1.0;
+}
+
+.music-being-played{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: left;
+}
+.add-favorites{
+    margin-top: 8px;
+    
+    width: 30px;
+    height: 56px;
+    background-image: url(./imagens/coracao2.png);
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-position-y: 20px ;
+    background-position-x: center;
+    background-size: 22px;
+
+}
+.image-music-played{
+    margin-top:8px;
+    width: 56px;
+    height: 56px;
+    background-color: rgb(89, 89, 89);
+   
+
+}
+.inform-music-played{
+    margin-top:8px;
+    
+
+    width: 180px;
+    height: 56px;
+
+}
+.tempo-a-percorrer>p,.tempo-percorrido>p{
+    
+    margin-top: -5px;
+    font-size: 10px;
+    color: white;
+}
+.tempo-a-percorrer{
+    text-align: right;
+}
