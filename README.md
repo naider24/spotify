@@ -1,3 +1,4 @@
 # spotify
 
-Projeto feito em html e css para estudar flex-box
+
+Project made in html and css to study flex-box, trying to replicate the spotify website design
